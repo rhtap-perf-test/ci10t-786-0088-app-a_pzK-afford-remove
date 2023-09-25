@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-kgrf
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0088-tenant/ci10t-786-0088-app/devfile-sample-kgrf@sha256:98bb76c455f59257a9b13e88683378e387077b542e1264cc82dd891f947eff56
         name: my-nodejs
         ports:
         - containerPort: 3001
